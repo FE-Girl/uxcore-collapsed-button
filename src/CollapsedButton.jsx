@@ -130,7 +130,7 @@ class CollapsedButton extends React.Component {
       </Menu>
     );
 
-    const offsetY = me.props.type === 'button' ? -5 : -20;
+    const offsetY = -5;
     const dropdownOptions = {
       key: 'icon',
       overlay: menu,

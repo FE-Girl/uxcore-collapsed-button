@@ -39,12 +39,12 @@ class Demo extends React.Component {
           </Item>
         </CollapsedButton>
         <h2>按钮形态</h2>
-        <CollapsedButton type="button">
+        <CollapsedButton type="button" maxLength={2}>
           <Item onClick={() => { handleClick(1); }}>
-            按钮一
+            按钮卡视角设计费一
           </Item>
           <Item onClick={() => { handleClick(2); }}>
-            按钮二
+            按钮撒打发二
           </Item>
           <Item onClick={() => { handleClick(3); }}>
             按钮三
